@@ -1,0 +1,84 @@
+/* ====================================================
+            ******** Fonts *********
+==================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Oswald:wght@500&family=Roboto:wght@500&display=swap');
+/* ====================================================
+            ******** Fonts *********
+==================================================== */
+
+/* ====================================================
+            ******** Font Family *********
+==================================================== */
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif; */
+/* ====================================================
+            ******** Font Family *********
+==================================================== */
+
+/* ====================================================
+            ******** Utilitis *********
+==================================================== */
+.body {
+    margin: auto;
+}
+
+.penguin-primary-color {
+    color: #FA804C;
+}
+
+.penguin-secondary-color {
+    color: #363958;
+}
+/* .nav-logo-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.589rem;
+} */
+.nav-img{
+    width: 18.194rem;
+    height: 2.454rem;
+}
+.nav-link-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #3C3C3C;
+}
+.top-banner-text{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+}
+.section-heading-text {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #363958;
+}
+
+.button-buy-now {
+    background-color: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.cart-heading-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #363958;
+}
+
+.cart-price-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 2.25rem;
+    color: #FA804C;
+}
+
+/* ====================================================
+            ******** Utilitis *********
+==================================================== */
