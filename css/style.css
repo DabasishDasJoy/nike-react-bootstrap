@@ -35,6 +35,9 @@ font-family: 'Roboto', sans-serif; */
     font-weight: 700;
     font-size: 1.589rem;
 } */
+.bg-header{
+    background-color: #FFF9F4;
+}
 .nav-img{
     width: 18.194rem;
     height: 2.454rem;
@@ -57,13 +60,14 @@ font-family: 'Roboto', sans-serif; */
     color: #363958;
 }
 
-.button-buy-now {
-    background-color: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+.buy-now-btn {
+    background-image: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
     border-radius: 10px;
     font-family: 'Roboto', sans-serif;
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: 500;
+    padding: 0.7rem 2rem; 
 }
 .cart-heading-text{
     font-family: 'Roboto', sans-serif;
@@ -81,4 +85,15 @@ font-family: 'Roboto', sans-serif; */
 
 /* ====================================================
             ******** Utilitis *********
+==================================================== */
+
+/* ====================================================
+            ******** Casousel Item *********
+==================================================== */
+.carousel-item{
+    transition: transform 1s ease;
+}
+
+/* ====================================================
+            ******** Casousel Item *********
 ==================================================== */
