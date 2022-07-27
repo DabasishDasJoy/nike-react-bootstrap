@@ -20,7 +20,9 @@ font-family: 'Roboto', sans-serif; */
             ******** Utilitis *********
 ==================================================== */
 .body {
-    margin: auto;
+    margin: 0 auto;
+    width: 100%;
+
 }
 
 .penguin-primary-color {
@@ -30,29 +32,34 @@ font-family: 'Roboto', sans-serif; */
 .penguin-secondary-color {
     color: #363958;
 }
+
 /* .nav-logo-text{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 1.589rem;
 } */
-.bg-header{
+.bg-header {
     background-color: #FFF9F4;
 }
-.nav-img{
+
+.nav-img {
     width: 18.194rem;
     height: 2.454rem;
 }
-.nav-link-text{
+
+.nav-link-text {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 1rem;
     color: #3C3C3C;
 }
-.top-banner-text{
+
+.top-banner-text {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 5rem;
 }
+
 .section-heading-text {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
@@ -67,25 +74,28 @@ font-family: 'Roboto', sans-serif; */
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: 500;
-    padding: 0.7rem 2rem; 
+    padding: 0.7rem 2rem;
 }
-.card-heading-text{
+
+.card-heading-text {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 1.5rem;
     color: #363958;
 }
 
-.card-price-text{
+.card-price-text {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 2.25rem;
     color: #FA804C;
 }
-.card-bg{
+
+.card-bg {
     background-color: #F1F1F1;
 }
-.card-shadow{
+
+.card-shadow {
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
     padding: 1.125rem;
 }
@@ -97,10 +107,31 @@ font-family: 'Roboto', sans-serif; */
 /* ====================================================
             ******** Casousel Item *********
 ==================================================== */
-.carousel-item{
+.carousel-item {
     transition: transform 1s ease;
 }
 
 /* ====================================================
             ******** Casousel Item *********
 ==================================================== */
+
+
+.information-img {
+    width: 4.375rem;
+    height: 4.375rem;
+}
+
+.information-heading {
+    color: #363958;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.information-item {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
